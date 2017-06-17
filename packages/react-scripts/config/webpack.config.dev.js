@@ -222,7 +222,7 @@ module.exports = {
       // "style" loader turns CSS into JS modules that inject <style> tags.
       // In production, we use a plugin to extract that CSS to a file, but
       // in development "style" loader enables hot editing of CSS.
-      // By default we support CSS Modules with the extension .modules.css
+      // By default we support CSS Modules with the extension .module.css
       {
         test: /\.css$/,
         exclude: /\.module\.css$/,
