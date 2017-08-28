@@ -153,6 +153,7 @@ module.exports = {
       // It's important to do this before Babel processes the JS.
       {
         test: /\.(js|jsx)$/,
+        exclude: /\/src\/local_modules\//,
         enforce: 'pre',
         use: [
           {
